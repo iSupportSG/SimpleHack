@@ -1,2 +1,3 @@
-# SimpleHack
-SG SIMPLE HACK (SAFE)
+run : 
+- npm i
+- node index.js 
