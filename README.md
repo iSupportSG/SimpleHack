@@ -5,3 +5,6 @@ how to run :
 - cd SimpleHack
 - npm i
 - node index.js 
+
+HACK 95% SAFE!
+Credit : @Eskey & @Dkmpostor
