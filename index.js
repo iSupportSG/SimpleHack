@@ -27,8 +27,8 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`SIMPLE HACK CROWN & TROPHY SG (SAFE!) 
-By : ${chalk.yellow('@iSupport#0101')} - Credit : @dkmpostor & @Eskey
+  console.log(`SIMPLE HACK CROWN & TROPHY SG (SAFE!)
+By : ${chalk.yellow('iSupport#0101')} - Credit : ${chalk.red(`@dkmpostor & @Eskey`)}
 `);
 
   const auth = rs.question('Masukkan Auth Token Anda : ');
@@ -50,11 +50,11 @@ By : ${chalk.yellow('@iSupport#0101')} - Credit : @dkmpostor & @Eskey
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`Nama Pengguna : ${username}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`Nama Pengguna : ${username}`)} | ${chalk.yellow(`Negara : ${country}`)} | ${chalk.green(`Data Send : Berhasil`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.blue(`Mahkota : ${crown}`)}`));
       await sleep(5000);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account has been Banned`));
+      console.log(chalk.bgRed(`Akun Anda Telah Terbanned ! (Makanya Jangan Brutal wkwk)`));
      break;
     }
   }
