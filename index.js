@@ -28,7 +28,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`SIMPLE HACK CROWN & TROPHY SG (SAFE!) 
-By : ${chalk.yellow('iSupport#0101')} - Credit : @dkmpostor & @Eskey
+By : ${chalk.yellow('@iSupport#0101')} - Credit : @dkmpostor & @Eskey
 `);
 
   const auth = rs.question('Masukkan Auth Token Anda : ');
