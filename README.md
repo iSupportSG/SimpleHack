@@ -6,5 +6,5 @@ how to run :
 - npm i
 - node index.js 
 
-HACK 95% SAFE!
+HACK 90% SAFE!
 Credit : @Eskey & @Dkmpostor
