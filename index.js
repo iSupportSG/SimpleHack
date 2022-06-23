@@ -40,7 +40,8 @@ By : ${chalk.yellow('@iSupport#0101')} - Credit : ${chalk.red(`@dkmpostor & @Esk
 `);
 
   const auth = rs.question('Masukkan Auth Token Anda : ');
-  console.log('');
+  console.log(`Sedang Loading Mohon Tunggu`);
+await sleep (2000);
 
   while (true) {
 
@@ -58,7 +59,7 @@ By : ${chalk.yellow('@iSupport#0101')} - Credit : ${chalk.red(`@dkmpostor & @Esk
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`Nama Pengguna : ${username}`)} | ${chalk.yellow(`Negara : ${country}`)} | ${chalk.green(`Data Send : Berhasil`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.blue(`Mahkota : ${crown}`)}`));
-console.log(chalk.bgPurple(`Mohon Tunggu Delay 5 Detik Agar Tidak Terban !`));
+console.log(chalk.bgRed(`Mohon Tunggu Delay 5 Detik Agar Tidak Terban !`));
       await sleep(5000);
 
     } else if (result == 'BANNED') {
