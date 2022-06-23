@@ -27,8 +27,16 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`SIMPLE HACK CROWN & TROPHY SG (SAFE!)
-By : ${chalk.yellow('iSupport#0101')} - Credit : ${chalk.red(`@dkmpostor & @Eskey`)}
+  console.log(`
+  ┈┈┈╲┈┈┈┈╱
+  ┈┈┈╱▔▔▔▔╲
+  ┈┈┃┈▇┈┈▇┈┃
+  ╭╮┣━━━━━━┫╭╮
+  ┃┃┃┈┈┈┈┈┈┃┃┃
+  ╰╯┃┈┈┈┈┈┈┃╰╯
+  ┈┈╰┓┏━━┓┏╯
+  ┈┈┈╰╯┈┈╰╯SIMPLE HACK CROWN & TROPHY SG (ReMake)
+By : ${chalk.yellow('@iSupport#0101')} - Credit : ${chalk.red(`@dkmpostor & @Eskey`)}
 `);
 
   const auth = rs.question('Masukkan Auth Token Anda : ');
@@ -39,7 +47,7 @@ By : ${chalk.yellow('iSupport#0101')} - Credit : ${chalk.red(`@dkmpostor & @Eske
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Mungkin Auth Token Anda Expired ?`));
+      console.log(chalk.bgRed(`\r[ ${moment().format('HH:mm:ss')} ] Auth Token Anda Sudah Expired !`));
       
 
     } else if (result.includes('User')) {
@@ -49,12 +57,12 @@ By : ${chalk.yellow('iSupport#0101')} - Credit : ${chalk.red(`@dkmpostor & @Eske
       const country = data.User.Country;
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
-
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`Nama Pengguna : ${username}`)} | ${chalk.yellow(`Negara : ${country}`)} | ${chalk.green(`Data Send : Berhasil`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.blue(`Mahkota : ${crown}`)}`));
+console.log(chalk.bgPurple(`Mohon Tunggu Delay 5 Detik Agar Tidak Terban !`));
       await sleep(5000);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Akun Anda Telah Terbanned ! (Makanya Jangan Brutal wkwk)`));
+      console.log(chalk.bgRed(`BANNED`));
      break;
     }
   }
